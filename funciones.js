@@ -1,24 +1,47 @@
-//saludar
+
+
+// Funcion para saludar
 
 function saludar(nombre){
-    return `!hola, ${nombre}`
-}
+    return `Por favor saquenme de la tionamerica , ${nombre}`;
+} 
 
-
-console.log(saludar("Juan"));
-
+console.log(saludar("Pedro"));
 
 //Area de triangulo
 
-const  areaTriangulo = (base,altura) => (base * altura) / 2;
-console.log(areaTriangulo(1,3));
+
+const areadeTriangulo = (base, altura) => (base * altura) /2;
+console.log(areadeTriangulo(10,19));
 
 
-// Convertir de Temperatura
+// convertidor De temperatura 
 
-function celsiustoFa(celsius){
-    return celsius * 9/5 + 32;
-
+function celsiusToFa(celsius){
+    return  celsius * 9/5 + 32;
 }
 
-console.log(celsiustoFa(20));
+console.log(celsiusToFa(23));
+
+
+
+// Suma y Multiplicar
+
+function suma(a,b) {
+    return a + b ;
+}
+
+function multiplicar(a,b){
+    return a * b;
+}
+
+
+let numero1 =  8;
+let numero2 = 19;
+
+
+let resultadoSuma=suma(numero1,numero2);
+let resultadoMulti=multiplicar(numero1,numero2);
+
+console.log(`La suma de ${numero1} y de  ${numero2} es : ${resultadoSuma}`);
+console.log(`La suma de ${numero1} y de  ${numero2} es : ${resultadoMulti}`);
